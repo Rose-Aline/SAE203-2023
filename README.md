@@ -68,6 +68,26 @@ Pour le code du template, vous pouvez utiliser un des plugins Figma suivants :
 
 Pour les `props` du composant `MaisonCard`, bien utiliser le type générer automatiquement de PocketBase : `MaisonRecord` à importer de `/src/pocketbase-types.ts`.
 
+Si cela ne fonctionne pas : demandez. Voiçi un code pour contourner un éventuel bug :
+
+```ts
+const props = defineProps<{
+  nomMaison: string
+  prix: number
+  images: string[]
+  nbChambres: number
+  nbSdb: number
+  adresse: string
+  surface: number
+  favori: boolean
+  id: string
+  created: string
+  updated: string
+  collectionId: string
+  collectionName: string
+}>()
+```
+
 Rq. pour colorier le coeur si "favoris" : entourer le `<path>` du code suivant :
 
 ```html
