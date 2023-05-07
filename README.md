@@ -71,6 +71,16 @@ Pour les `props` du composant `MaisonCard`, bien utiliser le type générer auto
 Si cela ne fonctionne pas : demandez. Voiçi un code pour contourner un éventuel bug :
 
 ```ts
+// Ajouter 'MaisonRecord' semble eviter le bug
+import type { MaisonResponse, MaisonRecord } from '@/pocketbase-types'
+
+// bug MaisonResponse
+const props: MaisonResponse = defineProps<MaisonResponse>()
+```
+
+Si cela ne fonctionne pas plus utiliser (`defineProps` sans `import type`):
+
+```ts
 const props = defineProps<{
   nomMaison: string
   prix: number
@@ -124,10 +134,11 @@ Vous pouvez tester le code suivant ([PocketBase file url][pb-file-url]) :
   ```html
   <script setup lang="ts">
     import { pb } from '@/backend'
-    import type { MaisonRecord, MaisonResponse, BaseSystemFields } from '@/pocketbase-types'
+    // Ajouter 'MaisonRecord' semble eviter le bug
+    import type { MaisonResponse, MaisonRecord } from '@/pocketbase-types'
 
     // bug MaisonResponse
-    const props = defineProps<MaisonRecord & BaseSystemFields<null>>()
+    const props: MaisonResponse = defineProps<MaisonResponse>()
 
     const img0 = props.images?.[0]
     const urlImg0 = img0 ? pb.getFileUrl(props, img0, { thumb: '100x250' }) : '/image-not-found.png'
