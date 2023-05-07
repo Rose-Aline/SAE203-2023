@@ -183,8 +183,13 @@ const maisonsDePlusde100M2 = maisonsListe.filter(
 
 # Travail TP3
 
-Mise à jours du code pour Vue Router / Vite Plugin Pages
+Mise à jour du code pour Vue Router / Vite Plugin Pages
 
-- Quitter
-- Remplacer les fichiers
--
+- Quitter le serveur de développent (Vite) si nécessaire.
+- Remplacer les fichiers par ceux fournis sur Moodle
+  - `/src/main.ts` : Initialise Vue Router avec les `pages` générer par le Plugin Vite Pages.
+  - `/env.d.ts` : Ajout TypeScript du Plugin Vite Pages
+  - `/package.json` : Ajout packets `"vue-router"` et `"vite-plugin-pages"`
+  - `/vite.config.ts` : Initialise le Plugin Pages dans
+    le serveur Vite
+  - `/README.md` : Les consignes qui sont mises à jour.
