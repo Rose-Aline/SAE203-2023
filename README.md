@@ -141,7 +141,7 @@ Vous pouvez tester le code suivant ([PocketBase file url][pb-file-url]) :
 
     const img0 = props.images[0]
     // si pas d'image (undefined) garde undefined
-    const urlImg0 = img0 && pb.getFileUrl(props, img0, { thumb:
+    const urlImg0 = img0 && pb.getFileUrl(props, img0, { thumb: '100x200' })
   </script>
   ```
 
