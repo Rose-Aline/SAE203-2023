@@ -28,7 +28,7 @@ Conseil ⇒ mettez en place une grille pour agencer le contenu dans la version b
 
 Exportez les icônes vectorielles au format svg.
 
-## Consignes Systéme d'information (Abdalla)
+## Consignes Systéme d'information (Abdallah Makhoul)
 
 Voici les attendus concernant cette partie :
 
@@ -45,6 +45,8 @@ Voici les attendus concernant cette partie :
 - **travail supplémentaire :**
   - **saisir ou modifier des données automatiquement à partir du front**
   - **une page de connexion (en utilisant la collection users)**
+  
+Dans un dossier que vous appelez Backend vous rendez les fichiers suivants  : MCD.pdf, backend.mjs(ou backend.ts), testback.js
 
 ## Consignes Développent web (Pierre)
 
