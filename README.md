@@ -56,4 +56,10 @@ Assurez-vous que vous rendez les fichiers suivants (liens) :
 
 Recopier `/pocketbase/backend.mjs` en `/pocketbase/backend.ts`. C'est le premier qui est noté en Systéme d'information. Le second indirectement dans le cadre de ma matiére.
 
+Réalisez le site comme vu en utilisant VueJS/ViteJS founis et configurés pour l'usage TailwindCSS.
+
+- Usage de `<RouterLink>` et `<RouterView>`
+- Usage de `<Suspense>` et d'"`avait`" pour récuppérer les données du backend. (appel de fonctions)
+-
+
 ## Consignes Hébergement (Hakim Mabed)
