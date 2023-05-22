@@ -22,11 +22,25 @@ En partant du travail effectué lors de cette SAE, vous devrez :
 
 ## Consignes Intégration (Xavier Senente)
 
+### Maquette
+
 À partir de la maquette réalisée lors de la SAÉ 105, apporter quelques corrections mineures pour améliorer l’interface mobile du site. Réaliser ensuite la version bureau.
 
 Conseil ⇒ mettez en place une grille pour agencer le contenu dans la version bureau.
 
 Exportez les icônes vectorielles au format SVG.
+
+### Intégration
+
+Voici les attendus pour cette partie :
+
+- Structure du code HTML (pertinence sémantique du code HTML + validation)
+- Définition des paramètres graphiques dans le fichier tailwind.config.js (couleurs + typo)
+- Définition des styles bases
+- Définition de quelques classes utilitaires souvent utilisées
+- Mise en place du responsive
+- Utilisation des grilles avec CSS grid
+- Interactions (menu mobile, carrousel, effet de scroll…)
 
 ## Consignes Système d'information (Abdallah Makhoul)
 
