@@ -20,7 +20,7 @@ En partant du travail effectué lors de cette SAE, vous devrez :
 - Lire les consignes et répondre aux éventuelles questions sur ce même document.
 - [ ] Cochez si vous avez compris !
 
-## Consignes Intégration (Xavier)
+## Consignes Intégration (Xavier Senente)
 
 À partir de la maquette réalisée lors de la SAE 105, apporter quelques corrections mineures pour améliorer l’interface mobile du site. Réaliser ensuite la version bureau.
 
@@ -35,7 +35,7 @@ Voici les attendus concernant cette partie :
 - Un modèle conceptuel de données
 - Structuration de la base de données et saisie de données dans Pocketbase
 - Saisir les données dans PocketBase
-- Un fichier `backend.mjs` (ou `backend.ts`) comportant les fonctions suivantes qui sont testées dans un fichier `test-back.js`
+- Un fichier `backend.mjs` comportant les fonctions suivantes qui sont testées dans un fichier `testback.js`
   - une fonction qui retourne la liste de tous les artistes (page)
   - une fonction qui retourne la liste de toutes les œuvres (page)
   - une fonction qui retourne les infos d'un artiste en donnant son id en paramètre avec liste de ses œuvres (page)
@@ -45,9 +45,15 @@ Voici les attendus concernant cette partie :
 - **travail supplémentaire :**
   - **saisir ou modifier des données automatiquement à partir du front**
   - **une page de connexion (en utilisant la collection users)**
-  
-Dans un dossier que vous appelez Backend vous rendez les fichiers suivants  : MCD.pdf, backend.mjs(ou backend.ts), testback.js
 
-## Consignes Développent web (Pierre)
+Assurez-vous que vous rendez les fichiers suivants (liens) :
 
-## Consignes Hébergement (Hakim)
+- [ ] [backend](/pocketbase/backend.mjs)
+- [ ] [test backen](/pocketbase/testback.js)
+- [ ] [MCD](/pocketbase/MCD.pdf)
+
+## Consignes Développent web (Pierre Pracht)
+
+Recopier `/pocketbase/backend.mjs` en `/pocketbase/backend.ts`. C'est le premier qui est noté en Systéme d'information. Le second indirectement dans le cadre de ma matiére.
+
+## Consignes Hébergement (Hakim Mabed)
