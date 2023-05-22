@@ -4,7 +4,7 @@
 
 # Sujet : Description de la SAE
 
-Cette SAE s’inscrit dans le prolongement de la SAE 105 du premier semestre sur la réalisation d’un site évènementiel pour promouvoir une exposition temporaire sur un mouvement artistique.
+Cette SAÉ s’inscrit dans le prolongement de la SAÉ 105 du premier semestre sur la réalisation d’un site évènementiel pour promouvoir une exposition temporaire sur un mouvement artistique.
 
 En partant du travail effectué lors de cette SAE, vous devrez :
 
@@ -16,19 +16,19 @@ En partant du travail effectué lors de cette SAE, vous devrez :
 # Consignes
 
 - Le rendu se fait en publiant vos modifications dans ce dépôt.
-- Le site doit être publié à une adresse publique sous peinne de perdre des points dans touts les matiéres.
+- Le site doit être publié à une adresse publique sous peine de perdre des points dans toutes les matières.
 - Lire les consignes et répondre aux éventuelles questions sur ce même document.
 - [ ] Cochez si vous avez compris !
 
 ## Consignes Intégration (Xavier Senente)
 
-À partir de la maquette réalisée lors de la SAE 105, apporter quelques corrections mineures pour améliorer l’interface mobile du site. Réaliser ensuite la version bureau.
+À partir de la maquette réalisée lors de la SAÉ 105, apporter quelques corrections mineures pour améliorer l’interface mobile du site. Réaliser ensuite la version bureau.
 
 Conseil ⇒ mettez en place une grille pour agencer le contenu dans la version bureau.
 
-Exportez les icônes vectorielles au format svg.
+Exportez les icônes vectorielles au format SVG.
 
-## Consignes Systéme d'information (Abdallah Makhoul)
+## Consignes Système d'information (Abdallah Makhoul)
 
 Voici les attendus concernant cette partie :
 
@@ -54,12 +54,26 @@ Assurez-vous que vous rendez les fichiers suivants (liens) :
 
 ## Consignes Développent web (Pierre Pracht)
 
-Recopier `/pocketbase/backend.mjs` en `/pocketbase/backend.ts`. C'est le premier qui est noté en Systéme d'information. Le second indirectement dans le cadre de ma matiére.
+Recopier `/pocketbase/backend.mjs` en `/pocketbase/backend.ts`. C'est le premier qui est noté en Système d'information. Le second indirectement dans le cadre de ma matière.
 
-Réalisez le site comme vu en utilisant VueJS/ViteJS founis et configurés pour l'usage TailwindCSS.
+Réalisez le site en utilisant VueJS/ViteJS fourni et configuré pour l'usage TailwindCSS.
 
 - Usage de `<RouterLink>` et `<RouterView>`
-- Usage de `<Suspense>` et d'"`avait`" pour récuppérer les données du backend. (appel de fonctions)
--
+- Pages et routes paramétriques avec "Vite Pages Plugin"
+- Usage de `<Suspense>` et d'"`avait`" pour récupérer les données du backend. (appel de fonction)
+
+Barème indicatif :
+
+- Minimum pour la moyenne :
+  - 10 pour un site complet et bien intégré, mais ne faisant qu'une simple boucle pour afficher une collection.
+  - Peu descendre jusqu'à 7 si peu ou pas d'intégration.
+  - Des points retirés pour tous les problèmes affectant le site ou la qualité du code.
+- Pour plus que 10 :
+  - 12 afficher la liste d'une collection sur une page et le détail d'un élément de la collection sur une page
+  - Jusqu'à 14, si plusieurs pages affichant les données de différentes façons et toujours bien intégrées.
+  - Vous pouvez perdre jusqu'à 4 points pour une intégration absente.
+  - Jusqu'à +2 points pour l'usage exhaustif de TypeScript.
+  - Jusqu'à +2 points pour l'intégration d'une page 404 bien intégrée.
+  - Jusqu'à +2 points pour l'affiche de tailles, couleurs... pilotées par des classes CSS ou styles.
 
 ## Consignes Hébergement (Hakim Mabed)
