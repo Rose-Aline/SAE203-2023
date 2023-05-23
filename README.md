@@ -91,3 +91,22 @@ Barème indicatif :
   - Jusqu'à +2 points pour l'affiche de tailles, couleurs... pilotées par des classes CSS ou styles.
 
 ## Consignes Hébergement (Hakim Mabed)
+
+Donnez les URL demandées et vérifiez qu’elles fonctionnent. Si vous utilisez des ports non standard : bien les spécifier dans vos URL (ex. _http://foo.bar:**81**_ )
+
+- [ ] Donnez l'adresse IP de votre VPS :
+
+- Installation et lancement de pocketbase sur le VPS -> **3 pts**
+
+  - [ ] Donnez l'URL du backend _`http://.../_/`\_ (IP ou dommaine) :
+
+- Transfert de la version "distribuable" de l'application web sur le VPS et sont accessibilité (dossier pb_public) -> **5 pts**
+
+  - [ ] Donnez l'URL du frontend _`http://.../`_ (IP ou domaine) :
+
+- Association d'un nom de sous domaine à l'application web (accès en http:\\nom-sous-domaine.mon-domaine.tld) -> **5 pts**
+
+  - [ ] Donnez l'URL du frontend _`http://foo.bar/`_ (nom de dommaine) :
+
+- Création d'une licence https avec let's encrypt pour le sous-domaine et lancement de pocketbase sur le port 443 -> **7 pts**
+  - [ ] Donnez l'URL HTTP**S** du frontend _`https://foo.bar/`_ (nom de dommaine) :
