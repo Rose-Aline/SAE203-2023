@@ -98,7 +98,7 @@ Donnez les URL demandées et vérifiez qu’elles fonctionnent. Si vous utilisez
 
 - Installation et lancement de pocketbase sur le VPS -> **3 pts**
 
-  - [ ] Donnez l'URL du backend _`http://.../_/`\_ (IP ou dommaine) :
+  - [ ] Donnez l'URL du backend `http://.../_/` (IP ou dommaine) :
 
 - Transfert de la version "distribuable" de l'application web sur le VPS et sont accessibilité (dossier pb_public) -> **5 pts**
 
