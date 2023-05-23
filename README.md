@@ -92,7 +92,7 @@ Barème indicatif :
 
 ## Consignes Hébergement (Hakim Mabed)
 
-Donnez les URL demandées et vérifiez qu’elles fonctionnent. Si vous utilisez des ports non standard : bien les spécifier dans vos URL (ex. http://foo.bar:81 ici port **81** !)
+Donnez les URL demandées et vérifiez qu’elles fonctionnent. Si vous utilisez des ports non standards : bien les spécifier dans vos URL (ex. http://foo.bar:81 ici port **81** !)
 
 - [ ] Donnez l'adresse IP de votre VPS :
 
@@ -102,11 +102,11 @@ Donnez les URL demandées et vérifiez qu’elles fonctionnent. Si vous utilisez
 
 - Transfert de la version "distribuable" de l'application web sur le VPS et sont accessibilité (dossier pb_public) -> **5 pts**
 
-  - [ ] Donnez l'URL du frontend _`http://.../`_ (IP ou domaine) :
+  - [ ] Donnez l'URL du frontend `http://.../` (IP ou domaine) :
 
 - Association d'un nom de sous domaine à l'application web (accès en http:\\nom-sous-domaine.mon-domaine.tld) -> **5 pts**
 
-  - [ ] Donnez l'URL du frontend _`http://foo.bar/`_ (nom de dommaine) :
+  - [ ] Donnez l'URL du frontend `http://foo.bar/` (nom de dommaine) :
 
 - Création d'une licence https avec let's encrypt pour le sous-domaine et lancement de pocketbase sur le port 443 -> **7 pts**
-  - [ ] Donnez l'URL HTTP**S** du frontend _`https://foo.bar/`_ (nom de dommaine) :
+  - [ ] Donnez l'URL HTTP**S** du frontend `https://foo.bar/` (nom de dommaine) :
