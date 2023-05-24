@@ -70,6 +70,12 @@ Assurez-vous que vous rendez les fichiers suivants (liens) :
 
 Recopier `/pocketbase/backend.mjs` en `/pocketbase/backend.ts`. C'est le premier qui est noté en Système d'information. Le second indirectement dans le cadre de ma matière.
 
+Si vous avez fini la base de données (PocketBase), n'oublier pas de générer ou régénérer `/src/pocketbase-types.ts` . Simplement faire :
+
+```
+npm run typegen
+```
+
 Réalisez le site en utilisant VueJS/ViteJS fourni et configuré pour l'usage TailwindCSS.
 
 - Usage de `<RouterLink>` et `<RouterView>`
@@ -87,8 +93,9 @@ Barème indicatif :
   - Jusqu'à 14, si plusieurs pages affichant les données de différentes façons et toujours bien intégrées.
   - Vous pouvez perdre jusqu'à 4 points pour une intégration absente.
   - Jusqu'à +2 points pour l'usage exhaustif de TypeScript.
+    - Dont 1 point, si `/src/pocketbase-types.ts` fait et à jour.
   - Jusqu'à +2 points pour l'intégration d'une page 404 bien intégrée.
-  - Jusqu'à +2 points pour l'affiche de tailles, couleurs... pilotées par des classes CSS ou styles.
+  - Jusqu'à +2 points pour l'affiche de tailles, couleurs, positions... pilotées par des classes CSS ou styles. (eg. frise.)
 
 ## Consignes Hébergement (Hakim Mabed)
 
