@@ -11,7 +11,7 @@ En partant du travail effectué lors de cette SAE, vous devrez :
 - Reprendre les éléments graphiques de l’interface en vue de l’améliorer
 - Réaliser la version bureau de l’interface
 - Reprendre totalement l’intégration en vue d’une intégration Vite / Vue 3 / Tailwind / Pocketbase
-- Mettre en ligne le site sur votre VPS
+- **Mettre en ligne le site sur votre VPS**
 
 # Consignes
 
@@ -19,6 +19,8 @@ En partant du travail effectué lors de cette SAE, vous devrez :
 - Le site doit être publié à une adresse publique sous peine de perdre des points dans toutes les matières.
 - Lire les consignes et répondre aux éventuelles questions sur ce même document.
 - [ ] Cochez si vous avez compris !
+
+Pour éventuellement archiver ou tester séparément votre projet, **faire une "release" (Rendu) dans GitHub** où vous déposerez une archive avec la base de données pocketbase et les éventuelles images associées (simplement faire une archive de tout le dossier)
 
 ## Consignes Intégration (Xavier Senente)
 
