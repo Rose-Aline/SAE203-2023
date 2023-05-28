@@ -101,21 +101,24 @@ Barème indicatif :
 
 ## Consignes Hébergement (Hakim Mabed)
 
-Donnez les URL demandées et vérifiez qu’elles fonctionnent. Si vous utilisez des ports non standards : bien les spécifier dans vos URL (ex. http://foo.bar:81 ici port **81** !)
-
-- [ ] Donnez l'adresse IP de votre VPS :
+Donnez les URL demandées et vérifiez qu’elles fonctionnent. Si vous utilisez des ports non standards : bien les spécifier dans vos URL (ex. http://foo.bar:81 ici port **81** !). 
+ 
+Barème de l'évaluation :
 
 - Installation et lancement de pocketbase sur le VPS -> **3 pts**
-
-  - [ ] Donnez l'URL du backend `http://.../_/` (IP ou dommaine) :
-
 - Transfert de la version "distribuable" de l'application web sur le VPS et sont accessibilité (dossier pb_public) -> **5 pts**
-
-  - [ ] Donnez l'URL du frontend `http://.../` (IP ou domaine) :
-
 - Association d'un nom de sous domaine à l'application web (accès en http:\\nom-sous-domaine.mon-domaine.tld) -> **5 pts**
-
-  - [ ] Donnez l'URL du frontend `http://foo.bar/` (nom de dommaine) :
-
 - Création d'une licence https avec let's encrypt pour le sous-domaine et lancement de pocketbase sur le port 443 -> **7 pts**
-  - [ ] Donnez l'URL HTTP**S** du frontend `https://foo.bar/` (nom de dommaine) :
+
+**P.S. si les accès par https sont OK alors l'accès en http n'est plus nécessaire !**
+
+Renseigner les informations suivantes :
+- [ ] Donnez l'adresse IP de votre VPS :
+
+- [ ] Donnez le login et le mot de passe admin du compte pocketbase : 
+
+- [ ] Donnez l'URL du backend `http://.../_/` (IP ou dommaine) :
+
+- [ ] Donnez l'URL du frontend `http://.../` (IP ou domaine) :
+
+- [ ] Donnez l'URL HTTP**S** du frontend `https://foo.bar/` (nom de dommaine) :
