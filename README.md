@@ -1,6 +1,7 @@
 - Nom:
 - Prénom:
 - URL du site:
+- Url de la maquette :
 
 # Sujet : Description de la SAE
 
@@ -101,8 +102,8 @@ Barème indicatif :
 
 ## Consignes Hébergement (Hakim Mabed)
 
-Donnez les URL demandées et vérifiez qu’elles fonctionnent. Si vous utilisez des ports non standards : bien les spécifier dans vos URL (ex. http://foo.bar:81 ici port **81** !). 
- 
+Donnez les URL demandées et vérifiez qu’elles fonctionnent. Si vous utilisez des ports non standards : bien les spécifier dans vos URL (ex. http://foo.bar:81 ici port **81** !).
+
 Barème de l'évaluation :
 
 - Installation et lancement de pocketbase sur le VPS -> **3 pts**
@@ -113,9 +114,10 @@ Barème de l'évaluation :
 **P.S. si les accès par https sont OK alors l'accès en http n'est plus nécessaire !**
 
 Renseigner les informations suivantes :
+
 - [ ] Donnez l'adresse IP de votre VPS :
 
-- [ ] Donnez le login et le mot de passe admin du compte pocketbase : 
+- [ ] Donnez le login et le mot de passe admin du compte pocketbase :
 
 - [ ] Donnez l'URL du backend `http://.../_/` (IP ou dommaine) :
 
