@@ -1,7 +1,7 @@
-- Nom:
-- Prénom:
+- Nom: Rose
+- Prénom: Aline
 - URL du site:
-- Url de la maquette :
+- Url de la maquette :  https://www.figma.com/file/K0bz4Eb8xdiYWM3xGJr3hy/MMI_SAE_203_Aline_ROSE_Le_Picturalisme_maquette?type=design&node-id=1508%3A7276&t=xlX0WWDFMDXuo0VY-1
 
 # Sujet : Description de la SAE
 
@@ -19,7 +19,7 @@ En partant du travail effectué lors de cette SAE, vous devrez :
 - Le rendu se fait en publiant vos modifications dans ce dépôt.
 - Le site doit être publié à une adresse publique sous peine de perdre des points dans toutes les matières.
 - Lire les consignes et répondre aux éventuelles questions sur ce même document.
-- [ ] Cochez si vous avez compris !
+- [X] Cochez si vous avez compris !
 
 Pour éventuellement archiver ou tester séparément votre projet, **faire une "release" (Rendu) dans GitHub** où vous déposerez une archive avec la base de données pocketbase et les éventuelles images associées (simplement faire une archive de tout le dossier)
 
