@@ -31,3 +31,9 @@ const pb = new PocketBase('http://127.0.0.1:8090');
         const records = await pb.collection('artiste').getFullList({sort: 'naissance_mois_jour_annee' })
         return records;
     }
+
+//liste des œuvres triées par date 
+    export async function OeuvreSorted(){
+        const records = await pb.collection('oeuvre').getFullList({sort: 'date_oeuvre' })
+        return records;
+    }
