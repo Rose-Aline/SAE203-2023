@@ -9,9 +9,8 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/",
-    "type": "module"
-  },
+    "format": "prettier --write src/"
+    },
   "dependencies": {
     "@formkit/vue": "^0.17.2",
     "@unhead/vue": "^1.1.27",

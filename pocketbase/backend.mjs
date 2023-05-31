@@ -19,3 +19,15 @@ const pb = new PocketBase('http://127.0.0.1:8090');
         return listeartisteID;
     }
 
+// Liste des oeuvres données par un nom d'artiste
+    export async function oeuvresParArtisteId (realisateur){
+        const listeoeuvresParArtiste = await pb.collection('artiste').getOne(realisateur, {expand: 'oeuvre(realisateur)'});
+        return listeoeuvresParArtiste;
+}
+
+
+//liste des artistes triés par date
+    export async function artisteSorted(){
+        const records = await pb.collection('artiste').getFullList({sort: 'naissance_mois_jour_annee' })
+        return records;
+    }

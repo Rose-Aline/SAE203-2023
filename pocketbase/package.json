@@ -12,5 +12,6 @@
   "dependencies": {
     "pocketbase": "^0.15.0"
   },
+  "devDependencies": {},
   "description": ""
 }
