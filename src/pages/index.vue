@@ -2,6 +2,6 @@
 </script>
 
 <template>
-  <h1>INDEX.VUE</h1>
+  <p>INDEX.VUE</p>
 </template>
 

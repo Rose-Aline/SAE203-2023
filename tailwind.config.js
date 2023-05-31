@@ -3,7 +3,7 @@ module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     colors: {
-      darkbrown: '#6C6161',
+      darkbrown: '#CCB28C',
       brown: '#CCB28C',
       beige: '#EFE2CF',
       backgroundbeige: '#F6F7EE',
@@ -13,7 +13,10 @@ module.exports = {
       transparent: 'transparent',
     },
     fontFamily: {
- 
+      roboto: ['Roboto'],
+      alegreya: ['Alegrey'],
+      ubuntu: ['Ubuntu']
+      
     },
     extend: {
       gridTemplateColumns: {
