@@ -5,16 +5,16 @@
 
 @layer base {
     body {
-      @apply font-ubuntu text-base;
+      @apply font-Ubuntu text-base;
     }
     h1 {
-      @apply font-roboto text-4xl lg:text-6xl;
+      @apply font-Roboto text-4xl lg:text-6xl;
     }
     h2 {
-      @apply font-alegreya text-2xl lg:text-4xl;
+      @apply font-Alegreya text-2xl lg:text-4xl;
     }
     h3 {
-      @apply font-ubuntu text-xl;
+      @apply font-Ubuntu text-xl;
     }
 }
 

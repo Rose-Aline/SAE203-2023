@@ -13,10 +13,9 @@ module.exports = {
       transparent: 'transparent',
     },
     fontFamily: {
-      roboto: ['Roboto'],
-      alegreya: ['Alegrey'],
-      ubuntu: ['Ubuntu']
-      
+      Alegreya: ['Alegreya', 'serif'],
+      Roboto: ['Roboto', 'sans-serif'],
+      Ubuntu: ['Ubuntu', 'sans-serif'],
     },
     extend: {
       gridTemplateColumns: {
