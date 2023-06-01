@@ -5,13 +5,13 @@
 
 @layer base {
     body {
-      @apply font-Ubuntu text-base;
+      @apply font-Ubuntu text-lg;
     }
     h1 {
-      @apply font-Roboto text-4xl lg:text-6xl;
+      @apply font-Roboto text-4xl lg:text-4xl font-bold;
     }
     h2 {
-      @apply font-Alegreya text-2xl lg:text-4xl;
+      @apply font-Alegreya text-2xl lg:text-3xl font-medium	;
     }
     h3 {
       @apply font-Ubuntu text-xl;
@@ -20,6 +20,6 @@
 
 @layer components{
     .btn{
-        @apply bg-orange text-white font-bold rounded
+        @apply bg-orange text-white text-2xl font-bold rounded px-12 py-2 rounded-lg
     }
     }
