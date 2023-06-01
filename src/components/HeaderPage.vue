@@ -13,11 +13,13 @@ function toggleMenu() {
 
 <template>
   <header class="p-4 bg-darkbrown text-black h-20 relative fixed z-10 w-full flex justify-between items-center">
-    <RouterLink to="/" class="lg:hidden">
+    <RouterLink to="index" class="lg:hidden">
       <Homeicon />
     </RouterLink>
 
-    <h2 class="uppercase hidden lg:block text-white font-medium text-3xl pl-8">Le pictorialisme</h2>
+    <RouterLink to="/">
+      <h2 class="uppercase hidden lg:block text-white font-medium text-3xl pl-8">Le pictorialisme</h2>
+    </RouterLink>
 
     <button @click="toggleMenu" class="lg:hidden">
       <Menuicon />

@@ -14,9 +14,11 @@
           <h2>Exposition du 13 Avril au 21 Juin 2021</h2>
           <p class="pt-3">Le pictorialisme est un mouvement esthétique international qui caractérise la photographie à partir de 1885 environ.</p>
           <p class="pt-3">Les artistes pictorialistes souhaitent « dépasser la simple imitation mécanique pour ériger la photographie en un art autonome et distinct.</p>
-            <button class="btn my-10">
-              Réserver un billet
-            </button>
+            <RouterLink to="Billeterie">
+              <button class="btn my-10">
+                Réserver un billet
+              </button>
+            </RouterLink>
           </div>
         </div>
     </main>
