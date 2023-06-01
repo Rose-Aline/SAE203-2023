@@ -13,13 +13,23 @@ function toggleMenu() {
 
 <template>
   <header class="p-4 bg-darkbrown text-black h-20 relative fixed z-10 w-full flex justify-between items-center">
-    <RouterLink to="/">
+    <RouterLink to="/" class="lg:hidden">
       <Homeicon />
     </RouterLink>
 
-    <button @click="toggleMenu">
+    <h2 class="uppercase hidden lg:block text-white font-medium text-3xl pl-8">Le pictorialisme</h2>
+
+    <button @click="toggleMenu" class="lg:hidden">
       <Menuicon />
     </button>
+
+    <div class="hidden lg:flex items-center text-white font-medium pr-8 ">
+      <h3>EXPOSITION</h3>
+        <hr class="h-8 border-r border-green-500 mx-4">
+      <h3>LE PICTURALISME</h3>
+        <hr class="h-8 border-r border-green-500 mx-4">
+      <h3>LES ARTISTES</h3>
+    </div>
 
     <nav class="absolute top-20 left-0 bg-white text-black w-full h-96 py-2 px-4 pt-4" :class="{ 'hidden': !showMenu }">
       <ul class="flex flex-col space-y-6 text-xl font-roboto font-extrabold	text-center content-center">
