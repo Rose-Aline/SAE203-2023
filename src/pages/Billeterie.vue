@@ -16,7 +16,7 @@
                 <p> <a class="text-orange">Tous les jours de 11h à 20h, sauf le lundi. </a> Nocturne le mardi, jusqu'à 22h.</p>
                 <p class="pt-5"> La fermeture des salles débute à 19h45 (21h45 les mardis)</p>
                 
-                <div class="text-2xl">
+                <div class="text-xl">
                     <h1 class="uppercase pt-10">tarifs</h1>
                     <p class="pt-5">Plein tarif ⇒ <a class="text-orange">11€</a></p>
                     <p>Tarif réduit ⇒ <a class="text-orange">7,50€</a></p>

@@ -8,18 +8,18 @@
       @apply font-Ubuntu text-lg;
     }
     h1 {
-      @apply font-Roboto text-4xl lg:text-4xl font-bold;
+      @apply font-Roboto text-4xl lg:text-3xl font-bold;
     }
     h2 {
-      @apply font-Alegreya text-2xl lg:text-3xl font-medium	;
+      @apply font-Alegreya text-2xl lg:text-xl font-medium	;
     }
     h3 {
-      @apply font-Ubuntu text-xl;
+      @apply font-Ubuntu text-lg;
     }
 }
 
 @layer components{
     .btn{
-        @apply bg-orange text-white text-2xl font-bold rounded px-12 py-2 rounded-lg
+        @apply bg-orange text-white text-lg font-bold rounded px-12 py-2 rounded-lg
     }
     }

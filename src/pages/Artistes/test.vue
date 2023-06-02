@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import ArtisteCard from '../../components/ArtistCard.vue'
-import { allArtiste } from '@/backend'
+import { artisteTous } from '@/backend.ts'
 
-const artisteliste = await allArtiste()
+const artisteliste = await artisteTous()
 console.log(artisteliste)
 </script>
 
