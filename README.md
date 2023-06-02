@@ -65,9 +65,9 @@ Voici les attendus concernant cette partie :
 
 Assurez-vous que vous rendez les fichiers suivants (liens) :
 
-- [ ] [backend](/pocketbase/backend.mjs)
-- [ ] [test backen](/pocketbase/testback.js)
-- [ ] [MCD](/pocketbase/MCD.pdf)
+- [X] [backend](/pocketbase/backend.mjs)
+- [X] [test backen](/pocketbase/testback.js)
+- [X] [MCD](/pocketbase/MCD.pdf)
 
 ## Consignes Développent web (Pierre Pracht)
 
