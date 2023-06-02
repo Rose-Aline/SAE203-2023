@@ -13,7 +13,7 @@ function toggleMenu() {
 
 <template>
   <header class="p-4 bg-darkbrown text-black h-20 relative fixed z-10 w-full flex justify-between items-center">
-    <RouterLink to="index" class="lg:hidden">
+    <RouterLink to="/" class="lg:hidden">
       <Homeicon />
     </RouterLink>
 

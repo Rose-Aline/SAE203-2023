@@ -1,4 +1,9 @@
 <script setup lang="ts">
+import ArtistCard from '../components/ArtistCard.vue'
+import { artisteTous } from '../../backend'
+
+const artistes = await artisteTous()
+console.log(artistes)
 </script>
 
 <template>
@@ -21,6 +26,13 @@
             </RouterLink>
           </div>
         </div>
+
+        <div class="pl-20">
+          <h1 class="uppercase pt-12">Les artistes du <RouterLink to="Mouvement" class="text-orange">pictorialisme</Routerlink></h1>
+          <hr class="w-1/2 pb-3 hidden lg:block">
+        </div>
+
+        <ArtistCard v-for="artiste of artistes" :key="artiste.id" v-bind="{ ...artiste }" />
     </main>
 </template>
 
