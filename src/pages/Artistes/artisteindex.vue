@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import ArtisteCard from '../../components/ArtistCard.vue'
-import { artisteTous } from '@/backend.ts'
+import { artisteTous } from '../../../backend'
 
 const artisteliste = await artisteTous()
 console.log(artisteliste)
@@ -8,6 +8,6 @@ console.log(artisteliste)
 
 <template>
   <div>
-    <ArtisteCard v-for="lesArtiste of artisteliste" :v-key="lesArtiste.id" v-bind="{ ...lesArtiste }" />
+    <ArtistCard v-for="lesArtiste of artisteliste" :v-key="lesArtiste.id" v-bind="{ ...lesArtiste }" />
   </div>
 </template>

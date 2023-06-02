@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { oneID } from '@/backend'
-import Artiste from '../components/ArtistCard.vue'
+import { oneID } from '../../../backend'
+import Artiste from '../../components/ArtistCard.vue'
 
 const props = defineProps<{
   id: string
