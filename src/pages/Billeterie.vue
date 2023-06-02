@@ -28,13 +28,14 @@
                         <p>Réduction 13 - 25 ans ⇒ <a class="text-orange">5€</a></p>
                         <p>Fondation Cartier Pass⇒ <a class="text-orange">18€ - 50€</a></p>
                         <p class="pt-5"> Moins de 13 ans, Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass, Etudiants ⇒ <a class="text-orange">Gratuit</a></p>
-                    </div>
-                </div>
+
                 <a href="https://fondation-cartier.tickeasy.com/fr-FR/tarifs">
                 <button class="btn my-10">
                     Réserver
                 </button>
                 </a>
+            </div>
+        </div>
 
             </div>
 

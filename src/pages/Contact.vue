@@ -19,7 +19,7 @@
     </div>
         <div class="flex items-center pr-20">
             <input type="checkbox" id="accept" class="mr-2">
-            <label for="accept">En soumettant ce formulaire, j'accepte que les informations saisies dans ce formulaire soient utilisées, exploitées, traitées pour permettre de me recontacter.</label>
+            <label for="accept" class="text-sm">En soumettant ce formulaire, j'accepte que les informations saisies dans ce formulaire soient utilisées, exploitées, traitées pour permettre de me recontacter.</label>
         </div>
     <button class="btn my-10 lg:mb-40">Envoyer</button>
   </form>
