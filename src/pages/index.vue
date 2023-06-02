@@ -32,7 +32,9 @@ console.log(artistes)
           <hr class="w-1/2 pb-3 hidden lg:block">
         </div>
 
+        <div class="flex flex-row justify-between px-20">
         <ArtistCard v-for="artiste of artistes" :key="artiste.id" v-bind="{ ...artiste }" />
+        </div>
     </main>
 </template>
 
