@@ -115,12 +115,14 @@ Barème de l'évaluation :
 
 Renseigner les informations suivantes :
 
-- [ ] Donnez l'adresse IP de votre VPS :
+- [X] Donnez l'adresse IP de votre VPS : 193.168.145.144, 2a09:6382:4000:10:193:168:145:144
 
-- [ ] Donnez le login et le mot de passe admin du compte pocketbase :
+- [X] Donnez le login et le mot de passe admin du compte pocketbase :    login:alinerose262003@gmail.com
+  Mot de passe: SAE203mouvementartistiqueMMI1
 
-- [ ] Donnez l'URL du backend `http://.../_/` (IP ou dommaine) :
 
-- [ ] Donnez l'URL du frontend `http://.../` (IP ou domaine) :
+- [X] Donnez l'URL du backend `http://.../_/` (IP ou dommaine) : http://pictorialisme.alinerose.fr/_/
 
-- [ ] Donnez l'URL HTTP**S** du frontend `https://foo.bar/` (nom de dommaine) :
+- [X] Donnez l'URL du frontend `http://.../` (IP ou domaine) : http://pictorialisme.alinerose.fr/
+
+- [X] Donnez l'URL HTTP**S** du frontend `https://foo.bar/` (nom de dommaine) : https://pictorialisme.alinerose.fr/
