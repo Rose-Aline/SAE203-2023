@@ -9,8 +9,8 @@ import {RouterLink} from 'vue-router'
        <h3 class="font-medium">A PROPOS</h3>
        <hr class="w-28 pb-3">
         <ul>
-          <li><a href="#">Exposition</a></li>
-          <li><a href="#">Le picturalisme</a></li>
+          <li><RouterLink to="Billeterie">Exposition</RouterLink></li>
+          <li><RouterLink to="Mouvement">Le Pictorialisme</RouterLink></li>
           <li><a href="https://www.fondationcartier.com/confidentialite">Politique de Confidentialité</a></li>
           <li><a href="https://www.fondationcartier.com/credits-legal">Conditions d&apos;utilisations</a></li>
         </ul>
@@ -20,8 +20,8 @@ import {RouterLink} from 'vue-router'
         <h3 class="font-medium">BILLETERIE</h3>
         <hr class="w-28 pb-3">
         <ul class="list-disc list-inside">
-          <li><a href="#">Voir les prix</a></li>
-          <li><a href="#">Acheter un billet</a></li>
+          <li><RouterLink to="Billeterie">Voir les prix</RouterLink></li>
+          <li><a href="https://fondation-cartier.tickeasy.com/fr-FR/tarifs">Acheter un billet</a></li>
         </ul>      
     </div>
 
@@ -29,10 +29,10 @@ import {RouterLink} from 'vue-router'
        <h3 class="font-medium">ARTISTES</h3>
        <hr class="w-28 pb-3">
         <ul class="list-disc list-inside">
-          <li><a href="#">Alvin Langdon Coburn</a></li>
-          <li><a href="#">Heinrich Kühn</a></li>
-          <li><a href="#">George Seeley</a></li>
-          <li><a href="#">Robert Demachy</a></li>
+          <li><RouterLink to="/">Alvin Langdon Coburn</RouterLink></li>
+          <li><RouterLink to="/">Heinrich Kühn</RouterLink></li>
+          <li><RouterLink to="/">George Seeley</RouterLink></li>
+          <li><RouterLink to="/">Robert Demachy</RouterLink></li>
         </ul>
     </div>
 
@@ -40,13 +40,13 @@ import {RouterLink} from 'vue-router'
         <h3 class="font-medium">CONTACT</h3>
         <hr class="w-28 pb-3">
         <ul class="list-disc list-inside">
-          <li><a href="#">Contacts</a></li>
+          <li><RouterLink to="Contact">Contacts</RouterLink></li>
           <li>Un problème ? Contactez l&apos;adresse <a href="mailto:alinerose262003@gmail.com">alinerose262003@gmail.com</a></li>
         </ul>      
     </div>
 
     <div class="flex justify-end items-end">
-      <img class="self-end w-28 " src="../img/MMIlogo.png" alt="Logo du site MMI" />
+      <a href="https://butmmi.thomasjeu.fr/#/"><img class="self-end w-28 " src="../img/MMIlogo.png" alt="Logo du site MMI" /></a>
     </div>
 
     </footer>
