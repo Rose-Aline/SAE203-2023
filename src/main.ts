@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+// @ts-ignore
 import routes from '~pages'
 import { createRouter, createWebHistory } from 'vue-router'
 import '../src/css/style.css'
@@ -11,11 +12,7 @@ app.use(
   createRouter({
     history: createWebHistory(),
     routes,
-// Pour mettre en haut de page dès le changement de page
 
-   /* scrollBehavior(to, from, savedPosition) {
-    return { top : 0}
-    }, */
   }),
 )
 

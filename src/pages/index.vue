@@ -1,8 +1,16 @@
 <script setup lang="ts">
+import ArtisteCard from '../components/ArtistCard.vue'
+import type {ArtisteResponse } from '@/pocketbase-types';
+const lesArtiste:ArtisteResponse[] = await ArtisteResponse();
+console.log(lesArtiste);
 </script>
 
 <template>
     <main class="bg-backgroundbeige">
+
+      <div>
+        <Card v-for="artiste of lesArtiste" :v-key="artiste.id" v-bind="{ ...artiste }"/>
+      </div>
 
       <div class="lg:flex">
         <div class="lg:w-1/2">
